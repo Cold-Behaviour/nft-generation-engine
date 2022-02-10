@@ -1,6 +1,6 @@
-# Moralis Mutants NFT Collection | Generative Art Engine
+# Cold Behavior NFT Collection | Generative Art Engine
 
-🧟‍♀️🧟‍♂️ Welcome to Rekt City on behalf of its horribly mutated survivors. 🧟‍♀️🧟‍♂️
+Welcome to the Behavior World.
 
 ## About
 
