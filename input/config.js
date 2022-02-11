@@ -117,9 +117,9 @@ const addRarityPercentForLayer = (_rarityId, _layerId, _percentages) => {
  *************************************************************/
 
 // image width in pixels
-const width = 1000;
+const width = 1024;
 // image height in pixels
-const height = 1000;
+const height = 1024;
 // description for NFT in metadata file
 const description = "Moralis Mutants - Survivors of Rekt City";
 // base url in case no unique metadata file i.e IPFS
@@ -127,7 +127,7 @@ const baseImageUri = "YOUR_MORALIS_SERVER_URL";
 // id for edition to start from
 const startEditionFrom = 1;
 // amount of NFTs to generate in edition
-const editionSize = 10;
+const editionSize = 20;
 // prefix to add to edition dna ids (to distinguish dna counts from different generation processes for the same collection)
 const editionDnaPrefix = 0;
 
@@ -146,14 +146,13 @@ let rarityWeights = [
 // the id would be the name of the folder in your input directory, e.g. 'ball' for ./input/ball
 const layers = [
   addLayer("Background", { x: 0, y: 0 }, { width: width, height: height }),
-  addLayer("Base Torso"),
-  addLayer("Base Head"),
-  addLayer("Torso"),
-  addLayer("Arms"),
-  addLayer("Mouths"),
+  addLayer("Skin"),
   addLayer("Eyes"),
-  addLayer("Accessories"),
-  addLayer("Noses"),
+  addLayer("Teeth"),
+  addLayer("Garment"),
+  addLayer("Chain"),
+  addLayer("Face"),
+  addLayer("Head"),
 ];
 
 // provide any specific percentages that are required for a given layer and rarity level
